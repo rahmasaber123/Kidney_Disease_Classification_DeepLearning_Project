@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: data_ingestion
+  source_URL: "NA"
+  local_data_file: data/raw/kidney-ct-scan-image.zip
+  unzipped_data_dir: data/raw/kidney_ct_scan_images
+
+

@@ -1,1 +1,14 @@
 [2025-11-02 02:41:16,142: INFO: main]: Starting the CNN Classifier Project
+[2025-11-04 22:09:53,912: ERROR: main]: 'DataIngestion' object has no attribute 'download_data'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\Kidney_Disease_Classification_DeepLearning_Project\main.py", line 12, in <module>
+    data_ingestion_pipeline.main()
+  File "C:\Users\HP\Desktop\Kidney_Disease_Classification_DeepLearning_Project\src\cnnClassifier\pipeline\first_stage_data_ingestion.py", line 15, in main
+    data_ingestion.download_data()
+AttributeError: 'DataIngestion' object has no attribute 'download_data'
+[2025-11-04 22:26:50,505: INFO: data_ingestion]: Entered the prepare_data method of DataIngestion class
+[2025-11-04 22:26:50,513: INFO: data_ingestion]: ZIP file found: data\raw\kidney-ct-scan-image.zip (~ 56361 KB)
+[2025-11-04 22:26:53,162: INFO: data_ingestion]: Files extracted to: data\raw\kidney_ct_scan_images
+[2025-11-04 22:26:53,170: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x================x
