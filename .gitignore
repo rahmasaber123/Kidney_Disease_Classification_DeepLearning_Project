@@ -1,0 +1,18 @@
+Data/*
+# Ignore data and artifacts
+
+artifacts/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+.kidney/
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
